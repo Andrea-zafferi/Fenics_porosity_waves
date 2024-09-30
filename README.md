@@ -1,7 +1,8 @@
 # Nonlinear Eulerian elasticity using the inverse map
 
-Description: This is a collection of nonlinear PDEs for Lagrangian/Eulerian hyperelastic solids and ultimately for a two-phase model describing the travelling porosity wave phenomenon. 
-Authors: Andrea Zafferi, Dirk Peschka
+**Description:** This is a collection of nonlinear PDEs for Lagrangian/Eulerian hyperelastic solids and ultimately for a two-phase model describing the travelling porosity wave phenomenon. 
+
+**Authors:** Andrea Zafferi, Dirk Peschka
 
 ## Lagrangian formulation
 
