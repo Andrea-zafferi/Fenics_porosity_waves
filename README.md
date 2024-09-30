@@ -4,11 +4,24 @@
 
 **Authors:** Andrea Zafferi, Dirk Peschka
 
-## Lagrangian formulation
+## Setting
 
-We consider here an extension of the previous model/code to include species diffusion effects. Thus we extend the space state by introducing the *Lagrangian* concentration variable $\bar{c}:\bar{\Omega}\to\mathbb{R}^i$, where, for the moment, $n=1$. We denote with $\bar{q}=(\bar{u},\bar{c})$ the Lagrangian state vector and with $\bar{\mathcal{Q}}$ the state space. The free energy of the system is updated with the inclusion of  *chemical* and a *mixed* energy density:
+Nonlinear elasicity is based on a flow map $\chi:\bar{\Omega}\to\mathbb{R}^d$, where $\bar{\Omega}\subset\mathbb{R}^d$ is a reference domain and 
 
 ```math
-\bar{\mathcal{H}}(\bar{q}):= \int_{\bar{\Omega}} \bar{H}_{\rm el}(\bar{F}) + \bar{H}_{\rm ch}(\bar{J},\bar{c}) + \bar{H}_{\rm mix}(\bar{u},\bar{c})\,{\rm d}\bar{x}\,.
+\Omega = \chi(\bar{\Omega})=\{x=\chi(\bar{x}):\bar{x}\in\bar{\Omega}\},
 ```
 
+denotes the deformed domain. For simplicity we will assume $\Omega=\bar{\Omega}$ throughout this work. Then, for a nonlinear hyperelastic problem with deformation gradient
+
+```math
+\boldsymbol{F}=\nabla\chi
+```
+
+the observed deformation emerges from the minimization of an energy
+
+```math
+\mathscr{F}(q) = \int_{\bar{\Omega}} W_\mathrm{elast}(x,\boldsymbol{F})\,\mathrm{d}\bar{x}.
+```
+
+over $q=\chi$ from a suitable function space.
