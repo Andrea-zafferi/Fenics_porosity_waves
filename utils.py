@@ -11,7 +11,7 @@ def write_dictionary(fname,mydict):
     with open(fname, 'w') as fp:
         json.dump(mydict, fp,sort_keys=True, indent=4)
         
-def output_state(mesh,q,fname,it=0,t=0):
+def write_state(mesh,q,fname,it=0,t=0):
     data = {
             'step': it,
             'time': t
@@ -26,14 +26,11 @@ def output_state(mesh,q,fname,it=0,t=0):
 def get_space(input_mesh,FE):
     return FunctionSpace(input_mesh,FE)
 
-def get_dirichlet(V):
-    return DirichletBC(V.sub(0), Constant((0, 0)), 'on_boundary && near(x[0],6,1e-4)')
-
 def read_state(fname,FE):
 
     data = read_dictionary(fname + '.json')
-    it = data('step')
-    t  = data('time')
+    it = data['step']
+    t  = data['time']
        
     mesh = Mesh()
 
