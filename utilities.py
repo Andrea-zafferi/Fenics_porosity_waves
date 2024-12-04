@@ -61,7 +61,8 @@ def read_state(fname):
 #    return mesh
 
 def refine_circle(x0,y0):
-    mesh   = RectangleMesh(Point(0,-40),Point(20,40),8,4*8,diagonal="left/right")
+    # mesh   = RectangleMesh(Point(0,-40),Point(20,40),8,4*8,diagonal="left/right")
+    mesh   = RectangleMesh(Point(0,0),Point(20,40),4,4*4,diagonal="left/right")
     fac = 4/5
     RR = 4/(fac**4)
     for i in range(4):
