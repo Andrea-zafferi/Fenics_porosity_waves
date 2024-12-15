@@ -1,6 +1,16 @@
 import json
 from fenics import *
 import numpy as np
+import json
+
+def pretty_print(mydict):
+    """
+    Pretty-print a dictionary (including nested dictionaries).
+    Args:
+        mydict (dict): The dictionary to print.
+    """
+    print(json.dumps(mydict, indent=4, sort_keys=True))
+
 
 def read_dictionary(fname):
     with open(fname) as json_file:
