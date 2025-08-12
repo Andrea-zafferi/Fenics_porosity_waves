@@ -2,7 +2,7 @@
 
 **Description:** This is a collection of nonlinear PDEs for Lagrangian/Eulerian hyperelastic solids and ultimately for a two-phase model describing the travelling porosity wave phenomenon. It covers the implementation shown in 
 
-- *Variational modelling of porosity waves*, WIAS Preprint 3210, (2025) DOI [10.20347/WIAS.PREPRINT.3210](http://dx.doi.org/10.20347/WIAS.PREPRINT.3210)
+- A. Zafferi & D. Peschka. *Variational modelling of porosity waves*, WIAS Preprint 3210, (2025) DOI [10.20347/WIAS.PREPRINT.3210](http://dx.doi.org/10.20347/WIAS.PREPRINT.3210)
 
 **Authors:** Andrea Zafferi, Dirk Peschka
 
