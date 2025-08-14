@@ -1,0 +1,16 @@
+{
+    "STRUCTURED": true,
+    "T": 4,
+    "basename": "diffusive",
+    "c0": 0.01,
+    "fout": "out_diffusive/",
+    "g0": -0.01,
+    "k": 32,
+    "mag": 0.05,
+    "mob": 1000.0,
+    "n_steps": 300,
+    "visc": 0.001,
+    "\u03b1": 25,
+    "\u03b5": 1e-05,
+    "\u03bc": 0.001
+}
