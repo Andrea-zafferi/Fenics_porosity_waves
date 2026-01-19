@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: "Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows"
+message: >
+  If you use this software, please cite the associated manuscript.
+
+type: software
+
+authors:
+  - family-names: Zafferi
+    given-names: Andrea
+    affiliation: "Freie Universität Berlin"
+    orcid: https://orcid.org/0000-0003-4012-7666
+  - family-names: Peschka
+    given-names: Dirk
+    affiliation: "Weierstrass Institute for Applied Analysis and Stochastics"
+    orcid: https://orcid.org/0000-0002-8723-4563
+
+repository-code: https://github.com/Andrea-zafferi/Discretisation_of_Eulerian_nonlinear_elasticity_and_diffusion_using_gradient_flows
+license: MIT
+
+keywords:
+  - nonlinear poroelasticity
+  - porosity waves
+  - FEniCS
+  - variational methods
+  - geophysical flows
+  - structure-preserving discretisation
+
+abstract: >
+  This repository contains the numerical implementation accompanying the
+  manuscript "Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows", providing a
+  structure-preserving FEniCS discretisation of nonlinear poroelastic and diffusive
+  models.
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Zafferi
+      given-names: Andrea
+    - family-names: Peschka
+      given-names: Dirk
+  title: "Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows"
+  year: 2026
+  status: submitted

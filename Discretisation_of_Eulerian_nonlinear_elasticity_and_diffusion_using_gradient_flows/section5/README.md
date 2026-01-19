@@ -42,3 +42,8 @@ Run the postprocessing notebook *Postprocessing_Section5_v01.ipynb* to load the 
 - NumPy, Matplotlib
 - tqdm (for progress bars)
 - Standard Python libraries (json, os, sys, logging)
+
+
+**Tested with**:
+- Python 3.10
+- FEniCS 2019.1.0

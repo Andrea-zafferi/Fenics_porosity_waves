@@ -6,7 +6,7 @@
 
 This is a collection of nonlinear PDEs for Lagrangian/Eulerian hyperelastic solids and ultimately for a two-phase model describing the travelling porosity wave phenomenon. It covers the implementation shown in 
 
-This directory contains a FEniCS-based simulations for elastic-diffusive material with porosity waves used in the paper
+This directory contains FEniCS-based simulations for elastic-diffusive material with porosity waves used in the paper
 
 A. Zafferi & D. Peschka. *Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows*, WIAS Preprint ??, (2026) DOI []()
 
