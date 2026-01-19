@@ -1,17 +1,12 @@
 # Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows
 
-**Description:** This is a collection of nonlinear PDEs for Lagrangian/Eulerian hyperelastic solids and ultimately for a two-phase model describing the travelling porosity wave phenomenon. It covers the implementation shown in 
-
 **Authors:** Andrea Zafferi, Dirk Peschka
 
-## Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows
-
-### Running and details
-
-For details check the `README.md` in the folder `./src_ZAMM/`.
-
 ### Overview
-This section introduces the simulations used in the paper
+
+This is a collection of nonlinear PDEs for Lagrangian/Eulerian hyperelastic solids and ultimately for a two-phase model describing the travelling porosity wave phenomenon. It covers the implementation shown in 
+
+This directory contains a FEniCS-based simulations for elastic-diffusive material with porosity waves used in the paper
 
 A. Zafferi & D. Peschka. *Discretisation of Eulerian nonlinear elasticity and diffusion using gradient flows*, WIAS Preprint ??, (2026) DOI []()
 
@@ -25,3 +20,7 @@ robustness and usability of our approach. Furthermore, in the context of Euleria
 quasi-static Euler-Euler type, our study demonstrates the existence of solitary fluid waves within poroviscoelastic media.
 This energy-based approach forms a basis for a deeper understanding of thermodynamical modelling and corresponding
 discretisation schemes for coupled poroelasticity, flow, and diffusion.
+
+**Note:** Slight code conversion and documentations were done with AI assistance using GitHub Copilot.
+
+The directory is divided into subdirectiories, each one containing the codes that generated the figures of the corresponding section. Within each subdirectory, there is a *README.md* file explaining the requirements and the use of the contained codes.

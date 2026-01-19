@@ -1,0 +1,16 @@
+{
+    "STRUCTURED": true,
+    "T": 30,
+    "basename": "flowing",
+    "c0": 0.01,
+    "fout": "out_flowing/",
+    "g0": -0.1,
+    "k": 32,
+    "mag": 0.05,
+    "mob": 0.1,
+    "n_steps": 900,
+    "visc": 0.001,
+    "\u03b1": 25,
+    "\u03b5": 0.001,
+    "\u03bc": 1e-09
+}
